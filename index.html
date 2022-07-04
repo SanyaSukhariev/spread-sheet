@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script src="spreadsheet.js"></script>
+
     <title>New task</title>
   </head>
-  <body>
-    <h1>
+  <body id="body">
+    <h1 id="elem">
       This is a static template, there is no bundler or bundling involved!
     </h1>
+
+    <div>
+      <label>
+        <span>Rows</span>
+        <input type="text" />
+      </label>
+      <label>
+        <span>Columns</span>
+        <input type="text" />
+      </label>
+
+      <input type="button" value="Generate" />
+    </div>
+
+    <script src="spreadsheet.js"></script>
   </body>
 </html>
