@@ -4,24 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
+    <link rel="stylesheet" href="spreadsheet.css" />
     <title>SpreadSheet</title>
   </head>
+
   <body id="body">
     <h1 id="elem">SimpleSpreadSheet</h1>
 
-    <div>
+    <section id="section">
       <label>
         <span>Rows</span>
-        <input type="text" />
+        <input type="text" id="in-1" />
       </label>
       <label>
         <span>Columns</span>
-        <input type="text" />
+        <input type="text" id="in-2" />
       </label>
-
-      <input type="button" value="Generate" />
-    </div>
+      <input type="button" value="Generate" id="b-1" />
+      <div id="el"></div>
+    </section>
 
     <script src="spreadsheet.js"></script>
   </body>
